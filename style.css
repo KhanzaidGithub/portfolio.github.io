@@ -42,6 +42,7 @@
     nav li a {
         color: white;
         text-decoration: none;
+        cursor: pointer;
     }
 
     nav li a:hover {
@@ -183,6 +184,7 @@
     nav ul li a:hover {
         background-color: rgb(179, 44, 179);
         color: white;
+        cursor: pointer;
     }
 
     p {
@@ -190,6 +192,17 @@
     }
 
     /*Loader*/
+    #spinner-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
     .loader {
         border: 4px solid #f3f3f3;
         border-top: 4px solid rgb(179, 44, 179);
@@ -198,9 +211,10 @@
         height: 100px;
         animation: spin 1s linear infinite;
         position: absolute;
-        top: 50%;
-        margin-left: 50%;
-        display: none;
+        top: 45%;
+        margin-left: 45%;
+        z-index: 9999;
+
     }
 
     @keyframes spin {
