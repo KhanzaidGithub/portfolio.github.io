@@ -1,0 +1,26 @@
+@media screen and (max-width:480px) {
+    .left {
+        font-size: 1rem;
+    }
+
+    .right ul {
+        display: none;
+    }
+
+    .humburger {
+        display: flex;
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+
+    .hum {
+        margin: 5px;
+        cursor: pointer;
+        width: 100%;
+        height: 5px;
+        background-color: white;
+        border-radius: 25px;
+    }
+
+}

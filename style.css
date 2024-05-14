@@ -49,6 +49,10 @@
         color: rgb(179, 44, 179);
     }
 
+    .humburger {
+        display: none;
+    }
+
     /*header-section ends*/
     .first-section {
         display: flex;
@@ -96,6 +100,7 @@
     }
 
     /*First section Ends*/
+
     /*Second Section Starts*/
 
     .second-section {
@@ -115,6 +120,7 @@
         width: 85vw;
         display: flex;
         margin-bottom: 455px;
+        flex-wrap: wrap;
     }
 
     .vertical {
@@ -144,7 +150,69 @@
         font-size: 14px;
     }
 
+    /*contact Us*/
+    .contact {
+        display: flex;
+        height: 30%;
+        width: 80%;
+        align-items: center center;
+        vertical-align: center;
+        justify-content: center center;
+        margin-top: 25px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .getintouch {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .getintouch>h1 {
+        font-weight: 600;
+        font-size: 44px;
+
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    form {
+        width: 450px;
+    }
+
+    form input {
+        width: 80%;
+        height: 20px;
+        padding: 8px 20px;
+        font-size: 16px;
+        border-radius: 8px;
+        border: none;
+        margin: 20px 0px;
+        color: rgb(179, 44, 179);
+    }
+
+    #textarea {
+        font-size: 16px;
+        color: rgb(179, 44, 179);
+        padding: 8px 20px;
+        margin-top: 10px;
+        width: 80%;
+        border-radius: 8px;
+
+    }
+
+    /*Contact Ends here*/
+
+    /*<!---->*/
+
     /* Footer */
+
     footer {
         background-color: rgb(0, 0, 33);
         color: #fff;
@@ -226,5 +294,5 @@
             transform: rotate(360deg);
         }
     }
+
     /*Contact Form*/
-    
